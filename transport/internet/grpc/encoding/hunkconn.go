@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/signal/done"
+	"github.com/decardlabs/uuhappyserver/common/buf"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/common/net/cnc"
+	"github.com/decardlabs/uuhappyserver/common/signal/done"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 )

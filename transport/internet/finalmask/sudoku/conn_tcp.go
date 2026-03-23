@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/xtls/xray-core/transport/internet/finalmask"
+	"github.com/decardlabs/uuhappyserver/transport/internet/finalmask"
 )
 
 const ioBufferSize = 32 * 1024

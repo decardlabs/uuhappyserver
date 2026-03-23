@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/core"
+	"github.com/decardlabs/uuhappyserver/features/routing"
+	"github.com/decardlabs/uuhappyserver/features/stats"
 	"google.golang.org/grpc"
 )
 

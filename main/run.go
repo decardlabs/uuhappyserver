@@ -14,22 +14,22 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/common/errors"
-	clog "github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/decardlabs/uuhappyserver/common/cmdarg"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	clog "github.com/decardlabs/uuhappyserver/common/log"
+	"github.com/decardlabs/uuhappyserver/common/platform"
+	"github.com/decardlabs/uuhappyserver/core"
+	"github.com/decardlabs/uuhappyserver/main/commands/base"
 )
 
 var cmdRun = &base.Command{
 	UsageLine: "{{.Exec}} run [-c config.json] [-confdir dir]",
-	Short:     "Run Xray with config, the default command",
+	Short:     "Run uuhappyserver with config, the default command",
 	Long: `
-Run Xray with config, the default command.
+Run uuhappyserver with config, the default command.
 
 The -config=file, -c=file flags set the config files for 
-Xray. Multiple assign is accepted.
+uuhappyserver. Multiple assign is accepted.
 
 The -confdir=dir flag sets a dir with multiple json config
 

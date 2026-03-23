@@ -1,8 +1,8 @@
 package localdns
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/features/dns"
 )
 
 // Client is an implementation of dns.Client, which queries localhost for DNS.

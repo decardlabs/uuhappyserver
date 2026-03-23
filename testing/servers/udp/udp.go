@@ -3,7 +3,7 @@ package udp
 import (
 	"fmt"
 
-	"github.com/xtls/xray-core/common/net"
+	"github.com/decardlabs/uuhappyserver/common/net"
 )
 
 type Server struct {

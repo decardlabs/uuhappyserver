@@ -1,8 +1,8 @@
 package kcp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/transport/internet"
 )
 
 // GetMTUValue returns the value of MTU settings.

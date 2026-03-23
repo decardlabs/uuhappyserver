@@ -3,10 +3,10 @@ package outbound
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/features"
-	"github.com/xtls/xray-core/transport"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/common/serial"
+	"github.com/decardlabs/uuhappyserver/features"
+	"github.com/decardlabs/uuhappyserver/transport"
 )
 
 // Handler is the interface for handlers that process outbound connections.

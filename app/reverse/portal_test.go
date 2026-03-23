@@ -3,8 +3,8 @@ package reverse_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/app/reverse"
-	"github.com/xtls/xray-core/common"
+	"github.com/decardlabs/uuhappyserver/app/reverse"
+	"github.com/decardlabs/uuhappyserver/common"
 )
 
 func TestStaticPickerEmpty(t *testing.T) {

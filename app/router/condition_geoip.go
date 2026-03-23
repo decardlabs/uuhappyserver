@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/net"
 
 	"go4.org/netipx"
 )

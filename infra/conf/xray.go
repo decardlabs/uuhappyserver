@@ -9,16 +9,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/decardlabs/uuhappyserver/app/dispatcher"
+	"github.com/decardlabs/uuhappyserver/app/proxyman"
+	"github.com/decardlabs/uuhappyserver/app/router"
+	"github.com/decardlabs/uuhappyserver/app/stats"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/common/platform"
+	"github.com/decardlabs/uuhappyserver/common/serial"
+	core "github.com/decardlabs/uuhappyserver/core"
+	"github.com/decardlabs/uuhappyserver/transport/internet"
 )
 
 var (

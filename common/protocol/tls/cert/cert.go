@@ -13,8 +13,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/common/errors"
 )
 
 type Certificate struct {

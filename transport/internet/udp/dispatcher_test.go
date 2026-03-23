@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/udp"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	. "github.com/xtls/xray-core/transport/internet/udp"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/common/buf"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/common/protocol/udp"
+	"github.com/decardlabs/uuhappyserver/features/routing"
+	"github.com/decardlabs/uuhappyserver/transport"
+	. "github.com/decardlabs/uuhappyserver/transport/internet/udp"
+	"github.com/decardlabs/uuhappyserver/transport/pipe"
 )
 
 type TestDispatcher struct {

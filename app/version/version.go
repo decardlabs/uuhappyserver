@@ -2,8 +2,8 @@ package version
 
 import (
 	"context"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/common/errors"
 	"strconv"
 	"strings"
 )

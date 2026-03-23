@@ -7,16 +7,16 @@ import (
 	_ "net/http/pprof"
 	"strings"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
-	"github.com/xtls/xray-core/features/outbound"
-	feature_stats "github.com/xtls/xray-core/features/stats"
+	"github.com/decardlabs/uuhappyserver/app/observatory"
+	"github.com/decardlabs/uuhappyserver/app/stats"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/common/signal/done"
+	"github.com/decardlabs/uuhappyserver/core"
+	"github.com/decardlabs/uuhappyserver/features/extension"
+	"github.com/decardlabs/uuhappyserver/features/outbound"
+	feature_stats "github.com/decardlabs/uuhappyserver/features/stats"
 )
 
 type MetricsHandler struct {

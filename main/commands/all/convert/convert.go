@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/decardlabs/uuhappyserver/main/commands/base"
 )
 
 // CmdConvert do config convertion

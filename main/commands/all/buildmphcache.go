@@ -3,9 +3,9 @@ package all
 import (
 	"os"
 
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/decardlabs/uuhappyserver/common/platform"
+	"github.com/decardlabs/uuhappyserver/infra/conf/serial"
+	"github.com/decardlabs/uuhappyserver/main/commands/base"
 )
 
 var cmdBuildMphCache = &base.Command{

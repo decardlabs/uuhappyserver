@@ -4,14 +4,14 @@ import (
 	"flag"
 	"os"
 
-	"github.com/xtls/xray-core/main/commands/base"
-	_ "github.com/xtls/xray-core/main/distro/all"
+	"github.com/decardlabs/uuhappyserver/main/commands/base"
+	_ "github.com/decardlabs/uuhappyserver/main/distro/all"
 )
 
 func main() {
 	os.Args = getArgsV4Compatible()
 
-	base.RootCommand.Long = "Xray is a platform for building proxies."
+	base.RootCommand.Long = "uuhappyserver is a platform for building proxies."
 	base.RootCommand.Commands = append(
 		[]*base.Command{
 			cmdRun,

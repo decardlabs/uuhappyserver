@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module github.com/decardlabs/uuhappyserver
 
 go 1.26
 

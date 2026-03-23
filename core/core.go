@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/decardlabs/uuhappyserver/common/serial"
 )
 
 var (
@@ -66,7 +66,7 @@ func Version() string {
 // VersionStatement returns a list of strings representing the full version info.
 func VersionStatement() []string {
 	return []string{
-		serial.Concat("Xray ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
+		serial.Concat("uuhappyserver ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
 		intro,
 	}
 }

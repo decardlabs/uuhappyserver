@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/app/policy"
-	"github.com/xtls/xray-core/app/proxyman"
-	. "github.com/xtls/xray-core/app/proxyman/outbound"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/session"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/decardlabs/uuhappyserver/app/policy"
+	"github.com/decardlabs/uuhappyserver/app/proxyman"
+	. "github.com/decardlabs/uuhappyserver/app/proxyman/outbound"
+	"github.com/decardlabs/uuhappyserver/app/stats"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/common/serial"
+	"github.com/decardlabs/uuhappyserver/common/session"
+	core "github.com/decardlabs/uuhappyserver/core"
+	"github.com/decardlabs/uuhappyserver/features/outbound"
+	"github.com/decardlabs/uuhappyserver/proxy/freedom"
+	"github.com/decardlabs/uuhappyserver/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

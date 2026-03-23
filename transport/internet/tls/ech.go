@@ -16,15 +16,15 @@ import (
 	"time"
 
 	utls "github.com/refraction-networking/utls"
-	"github.com/xtls/xray-core/common/crypto"
-	dns2 "github.com/xtls/xray-core/features/dns"
+	"github.com/decardlabs/uuhappyserver/common/crypto"
+	dns2 "github.com/decardlabs/uuhappyserver/features/dns"
 	"golang.org/x/net/http2"
 
 	"github.com/miekg/dns"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/common/utils"
+	"github.com/decardlabs/uuhappyserver/transport/internet"
 	"golang.org/x/crypto/cryptobyte"
 )
 

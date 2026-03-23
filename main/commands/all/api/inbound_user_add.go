@@ -4,21 +4,21 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/decardlabs/uuhappyserver/common/protocol"
 
-	handlerService "github.com/xtls/xray-core/app/proxyman/command"
-	cserial "github.com/xtls/xray-core/common/serial"
+	handlerService "github.com/decardlabs/uuhappyserver/app/proxyman/command"
+	cserial "github.com/decardlabs/uuhappyserver/common/serial"
 
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
-	"github.com/xtls/xray-core/proxy/shadowsocks_2022"
-	"github.com/xtls/xray-core/proxy/trojan"
-	vlessin "github.com/xtls/xray-core/proxy/vless/inbound"
-	vmessin "github.com/xtls/xray-core/proxy/vmess/inbound"
+	"github.com/decardlabs/uuhappyserver/core"
+	"github.com/decardlabs/uuhappyserver/infra/conf"
+	"github.com/decardlabs/uuhappyserver/infra/conf/serial"
+	"github.com/decardlabs/uuhappyserver/proxy/shadowsocks"
+	"github.com/decardlabs/uuhappyserver/proxy/shadowsocks_2022"
+	"github.com/decardlabs/uuhappyserver/proxy/trojan"
+	vlessin "github.com/decardlabs/uuhappyserver/proxy/vless/inbound"
+	vmessin "github.com/decardlabs/uuhappyserver/proxy/vmess/inbound"
 
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/decardlabs/uuhappyserver/main/commands/base"
 )
 
 var cmdAddInboundUsers = &base.Command{

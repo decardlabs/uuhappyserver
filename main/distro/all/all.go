@@ -4,74 +4,74 @@ import (
 	// The following are necessary as they register handlers in their init functions.
 
 	// Mandatory features. Can't remove unless there are replacements.
-	_ "github.com/xtls/xray-core/app/dispatcher"
-	_ "github.com/xtls/xray-core/app/proxyman/inbound"
-	_ "github.com/xtls/xray-core/app/proxyman/outbound"
+	_ "github.com/decardlabs/uuhappyserver/app/dispatcher"
+	_ "github.com/decardlabs/uuhappyserver/app/proxyman/inbound"
+	_ "github.com/decardlabs/uuhappyserver/app/proxyman/outbound"
 
 	// Default commander and all its services. This is an optional feature.
-	_ "github.com/xtls/xray-core/app/commander"
-	_ "github.com/xtls/xray-core/app/log/command"
-	_ "github.com/xtls/xray-core/app/proxyman/command"
-	_ "github.com/xtls/xray-core/app/stats/command"
+	_ "github.com/decardlabs/uuhappyserver/app/commander"
+	_ "github.com/decardlabs/uuhappyserver/app/log/command"
+	_ "github.com/decardlabs/uuhappyserver/app/proxyman/command"
+	_ "github.com/decardlabs/uuhappyserver/app/stats/command"
 
 	// Developer preview services
-	_ "github.com/xtls/xray-core/app/observatory/command"
+	_ "github.com/decardlabs/uuhappyserver/app/observatory/command"
 
 	// Other optional features.
-	_ "github.com/xtls/xray-core/app/dns"
-	_ "github.com/xtls/xray-core/app/dns/fakedns"
-	_ "github.com/xtls/xray-core/app/log"
-	_ "github.com/xtls/xray-core/app/metrics"
-	_ "github.com/xtls/xray-core/app/policy"
-	_ "github.com/xtls/xray-core/app/reverse"
-	_ "github.com/xtls/xray-core/app/router"
-	_ "github.com/xtls/xray-core/app/stats"
+	_ "github.com/decardlabs/uuhappyserver/app/dns"
+	_ "github.com/decardlabs/uuhappyserver/app/dns/fakedns"
+	_ "github.com/decardlabs/uuhappyserver/app/log"
+	_ "github.com/decardlabs/uuhappyserver/app/metrics"
+	_ "github.com/decardlabs/uuhappyserver/app/policy"
+	_ "github.com/decardlabs/uuhappyserver/app/reverse"
+	_ "github.com/decardlabs/uuhappyserver/app/router"
+	_ "github.com/decardlabs/uuhappyserver/app/stats"
 
 	// Fix dependency cycle caused by core import in internet package
-	_ "github.com/xtls/xray-core/transport/internet/tagged/taggedimpl"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/tagged/taggedimpl"
 
 	// Developer preview features
-	_ "github.com/xtls/xray-core/app/observatory"
+	_ "github.com/decardlabs/uuhappyserver/app/observatory"
 
 	// Inbound and outbound proxies.
-	_ "github.com/xtls/xray-core/proxy/blackhole"
-	_ "github.com/xtls/xray-core/proxy/dns"
-	_ "github.com/xtls/xray-core/proxy/dokodemo"
-	_ "github.com/xtls/xray-core/proxy/freedom"
-	_ "github.com/xtls/xray-core/proxy/http"
-	_ "github.com/xtls/xray-core/proxy/loopback"
-	_ "github.com/xtls/xray-core/proxy/shadowsocks"
-	_ "github.com/xtls/xray-core/proxy/socks"
-	_ "github.com/xtls/xray-core/proxy/trojan"
-	_ "github.com/xtls/xray-core/proxy/vless/inbound"
-	_ "github.com/xtls/xray-core/proxy/vless/outbound"
-	_ "github.com/xtls/xray-core/proxy/vmess/inbound"
-	_ "github.com/xtls/xray-core/proxy/vmess/outbound"
-	_ "github.com/xtls/xray-core/proxy/wireguard"
+	_ "github.com/decardlabs/uuhappyserver/proxy/blackhole"
+	_ "github.com/decardlabs/uuhappyserver/proxy/dns"
+	_ "github.com/decardlabs/uuhappyserver/proxy/dokodemo"
+	_ "github.com/decardlabs/uuhappyserver/proxy/freedom"
+	_ "github.com/decardlabs/uuhappyserver/proxy/http"
+	_ "github.com/decardlabs/uuhappyserver/proxy/loopback"
+	_ "github.com/decardlabs/uuhappyserver/proxy/shadowsocks"
+	_ "github.com/decardlabs/uuhappyserver/proxy/socks"
+	_ "github.com/decardlabs/uuhappyserver/proxy/trojan"
+	_ "github.com/decardlabs/uuhappyserver/proxy/vless/inbound"
+	_ "github.com/decardlabs/uuhappyserver/proxy/vless/outbound"
+	_ "github.com/decardlabs/uuhappyserver/proxy/vmess/inbound"
+	_ "github.com/decardlabs/uuhappyserver/proxy/vmess/outbound"
+	_ "github.com/decardlabs/uuhappyserver/proxy/wireguard"
 
 	// Transports
-	_ "github.com/xtls/xray-core/transport/internet/grpc"
-	_ "github.com/xtls/xray-core/transport/internet/httpupgrade"
-	_ "github.com/xtls/xray-core/transport/internet/kcp"
-	_ "github.com/xtls/xray-core/transport/internet/reality"
-	_ "github.com/xtls/xray-core/transport/internet/splithttp"
-	_ "github.com/xtls/xray-core/transport/internet/tcp"
-	_ "github.com/xtls/xray-core/transport/internet/tls"
-	_ "github.com/xtls/xray-core/transport/internet/udp"
-	_ "github.com/xtls/xray-core/transport/internet/websocket"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/grpc"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/httpupgrade"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/kcp"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/reality"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/splithttp"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/tcp"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/tls"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/udp"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/websocket"
 
 	// Transport headers
-	_ "github.com/xtls/xray-core/transport/internet/headers/http"
-	_ "github.com/xtls/xray-core/transport/internet/headers/noop"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/headers/http"
+	_ "github.com/decardlabs/uuhappyserver/transport/internet/headers/noop"
 
 	// JSON & TOML & YAML
-	_ "github.com/xtls/xray-core/main/json"
-	_ "github.com/xtls/xray-core/main/toml"
-	_ "github.com/xtls/xray-core/main/yaml"
+	_ "github.com/decardlabs/uuhappyserver/main/json"
+	_ "github.com/decardlabs/uuhappyserver/main/toml"
+	_ "github.com/decardlabs/uuhappyserver/main/yaml"
 
 	// Load config from file or http(s)
-	_ "github.com/xtls/xray-core/main/confloader/external"
+	_ "github.com/decardlabs/uuhappyserver/main/confloader/external"
 
 	// Commands
-	_ "github.com/xtls/xray-core/main/commands/all"
+	_ "github.com/decardlabs/uuhappyserver/main/commands/all"
 )

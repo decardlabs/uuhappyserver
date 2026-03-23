@@ -3,7 +3,7 @@ package sudoku
 import (
 	"net"
 
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/errors"
 )
 
 func (c *Config) TCP() {

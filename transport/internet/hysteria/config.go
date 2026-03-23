@@ -3,9 +3,9 @@ package hysteria
 import (
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/hysteria/padding"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/transport/internet"
+	"github.com/decardlabs/uuhappyserver/transport/internet/hysteria/padding"
 )
 
 const (

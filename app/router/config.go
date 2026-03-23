@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/platform"
+	"github.com/decardlabs/uuhappyserver/common/platform/filesystem"
+	"github.com/decardlabs/uuhappyserver/features/outbound"
+	"github.com/decardlabs/uuhappyserver/features/routing"
 )
 
 type Rule struct {

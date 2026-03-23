@@ -3,9 +3,9 @@ package api
 import (
 	"fmt"
 
-	handlerService "github.com/xtls/xray-core/app/proxyman/command"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	handlerService "github.com/decardlabs/uuhappyserver/app/proxyman/command"
+	"github.com/decardlabs/uuhappyserver/infra/conf/serial"
+	"github.com/decardlabs/uuhappyserver/main/commands/base"
 )
 
 var cmdRemoveOutbounds = &base.Command{

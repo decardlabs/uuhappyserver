@@ -6,15 +6,15 @@ import (
 	reflect "reflect"
 	"sync/atomic"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/decardlabs/uuhappyserver/common"
+	"github.com/decardlabs/uuhappyserver/common/buf"
+	"github.com/decardlabs/uuhappyserver/common/dice"
+	"github.com/decardlabs/uuhappyserver/common/errors"
+	"github.com/decardlabs/uuhappyserver/common/net"
+	"github.com/decardlabs/uuhappyserver/common/net/cnc"
+	"github.com/decardlabs/uuhappyserver/transport/internet"
+	"github.com/decardlabs/uuhappyserver/transport/internet/stat"
+	"github.com/decardlabs/uuhappyserver/transport/internet/tls"
 )
 
 var globalConv = uint32(dice.RollUint16())

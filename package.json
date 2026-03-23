@@ -1,0 +1,14 @@
+{
+  "name": "uuhappy-server",
+  "version": "1.0.0",
+  "description": "uuhappy server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": ["happy", "server"],
+  "author": "decardlabs",
+  "license": "MIT"
+}

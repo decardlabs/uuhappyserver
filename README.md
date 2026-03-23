@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project X
 
 [Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY).
@@ -206,7 +207,7 @@ CGO_ENABLED=0 go build -o uuhappyserver -trimpath -buildvcs=false -gcflags="all=
 If you are compiling a 32-bit MIPS/MIPSLE target, use this command instead:
 
 ```bash
-CGO_ENABLED=0 go build -o uuhappyserver -trimpath -buildvcs=false -gcflags="-l=4" -ldflags="-X github.com/xtls/xray-core/core.build=REPLACE -s -w -buildid=" -v ./main
+CGO_ENABLED=0 go build -o uuhappyserver -trimpath -buildvcs=false -gcflags="-l=4" -ldflags="-X github.com/decardlabs/uuhappyserver/core.build=REPLACE -s -w -buildid=" -v ./main
 ```
 
 ## Stargazers over time
